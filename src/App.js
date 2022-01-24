@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import axios from 'axios';
 
 import './App.css';
@@ -10,11 +10,15 @@ class App extends React.Component {
   };
 
   componentDidMount() {
-    this.fetchAdvice();
+    this.quoteOfTheDay();
   }
 
-  fetchAdvice = () => {
-    axios.get('https://api.adviceslip.com/advice')
+  //Fetch data from API
+  quoteOfTheDay = () => {
+
+    const apiURL = ('https://api.adviceslip.com/advice');
+
+    axios.get(apiURL)
       .then((response) => {
         //console.log(response.data.slip.advice);
         //using destructure instead
@@ -34,7 +38,7 @@ class App extends React.Component {
       <div className='app'>
         <div className='card'>
           <h1 className='heading'>{advice}</h1>
-          <button className='button' onClick={this.fetchAdvice}>
+          <button className='button' onClick={this.quoteOfTheDay}>
             <span>💕 Share Me Your Thoughts 💕</span>
           </button>
         </div>
@@ -44,3 +48,4 @@ class App extends React.Component {
 }
 
 export default App;
+
