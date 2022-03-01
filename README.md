@@ -1,5 +1,6 @@
+This project was deployed in Netlify - https://hardcore-cori-a08f79.netlify.app
 
-I called this simple project as quote_of_the_day. I used this on a daily basis before I start my day which I find it very helpful to set the tone of my day.
+I called this simple project as quote_of_the_day. I used this on a daily basis before I start my day which I find very helpful to set the tone of my day.
 
   - This project was built using React
   - Used Advice Slip JSON API
