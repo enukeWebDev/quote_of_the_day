@@ -15,10 +15,10 @@ class App extends React.Component {
 
     axios.get(apiURL)
       .then((response) => {
-        //console.log(response.data.slip.advice);
+
         //using destructure instead
         const { advice } = response.data.slip;
-        //console.log(advice);
+
         this.setState({ advice });
       })
       .catch((error) => {
