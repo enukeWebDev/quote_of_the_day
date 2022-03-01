@@ -9,9 +9,13 @@ I called this simple project as quote_of_the_day. I used this on a daily basis b
 
 Screenshots of Final Project:
 
-1. !["Desktop-Version"](https://github.com/enukeWebDev/quote_of_the_day/blob/main/src/image/Desktop-Version.png?raw=true)
+1. Desktop Version
 
-2. !["Mobile-Version"](https://github.com/enukeWebDev/quote_of_the_day/blob/main/src/image/Mobile-Version.png?raw=true)
+!["Desktop-Version"](https://github.com/enukeWebDev/quote_of_the_day/blob/main/src/image/Desktop-Version.png?raw=true) 
+
+2. Mobile Version
+
+!["Mobile-Version"](https://github.com/enukeWebDev/quote_of_the_day/blob/main/src/image/Mobile-Version.png?raw=true)
 
 
 
