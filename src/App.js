@@ -34,7 +34,7 @@ class App extends React.Component {
         <div className='card'>
           <h1 className='heading'>{advice}</h1>
           <button className='button' onClick={this.quoteOfTheDay}>
-            <span>💕 Share Me Your Thoughts 💕</span>
+            <span>💕 Thoughts of the Day 💕</span>
           </button>
         </div>
       </div>
